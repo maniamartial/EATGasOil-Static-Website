@@ -220,6 +220,10 @@ li {
   text-decoration: none;
   list-style: none;
 }
+.logo {
+  max-height: 70px;
+  max-width: 300px;
+}
 
 @media (max-width: 500px) {
   .hide-large {
