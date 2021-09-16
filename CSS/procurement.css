@@ -210,3 +210,22 @@ button:focus {
 .hide-large {
   display: none;
 }
+.btn-toolbar {
+  background-color: green;
+  margin-left: -45px;
+}
+
+@media (max-width: 360px) {
+  .btn-toolbar {
+    margin-left: -15px;
+  }
+}
+@media (max-width: 320px) {
+  .btn-toolbar {
+    margin-left: -44px;
+  }
+  .news .btn-group {
+    margin-right: 0.5%;
+    margin-top: 1%;
+  }
+}

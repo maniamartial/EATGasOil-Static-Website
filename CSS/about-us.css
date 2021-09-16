@@ -1,0 +1,455 @@
+.image-space {
+  min-height: 600px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.sides {
+}
+.info-side {
+  width: 60%;
+}
+@media (max-width: 500px) {
+  .info-side {
+    width: 99%;
+  }
+}
+.sides:first-child {
+  margin-right: 30px;
+}
+.about_us_img {
+  width: 100%;
+  height: 100%;
+}
+.missionvission {
+  height: 400px;
+  width: 500px;
+  text-align: center;
+}
+.missionvission:first-child {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.image-mision {
+  width: 100%;
+  height: 80%;
+}
+.mission h3 {
+  position: absolute;
+  color: white;
+  text-align: center;
+  padding-left: 10%;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.mission-vision {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+.mission-vision p {
+  font-size: 30px;
+  color: white;
+}
+.upper-part:first-child {
+  background-color: red;
+}
+.upper-part:last-child {
+  background-color: rgb(78, 78, 243);
+}
+.upper-part {
+  height: 20%;
+  margin-top: -7%;
+}
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+@media (max-width: 500px) {
+  .missionvission:first-child {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .missionvision {
+    height: 450px;
+  }
+  .image-mision {
+    height: 70%;
+  }
+  .upper-part {
+    height: 30%;
+    margin-top: -9%;
+  }
+  .mission-vision:first-child {
+    margin-bottom: 100px;
+  }
+  .mission {
+    margin-bottom: 20px;
+  }
+  .container {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+}
+
+/*CHairman*/
+.chairman-space {
+  display: flex;
+  height: 500px;
+  border: 1px grey solid;
+}
+.profile-picture {
+  width: 400px;
+  height: 100%;
+}
+.profile-pic {
+  height: 100%;
+  width: 400px;
+}
+.chairman h2 {
+  font-size: 30px;
+}
+.chairman-info {
+  z-index: 1000;
+  background-color: rgb(255, 255, 255);
+  margin-left: 2%;
+  word-wrap: normal;
+  font-size: 20px;
+  line-height: 30px;
+  box-shadow: grey;
+  transform: scale(1);
+  box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .chairman-space {
+    display: block;
+    height: fit-content;
+    margin: 1%;
+  }
+}
+
+.teamheader {
+  word-spacing: 5px;
+  font-family: Montserrat;
+  font-size: 45px;
+
+  margin: 20px;
+}
+
+.team1 {
+  display: block;
+
+  height: fit-content;
+  width: 250px;
+  margin: 5px;
+  margin-left: 10%;
+}
+.image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: black;
+}
+.image1 {
+  border-radius: 50%;
+}
+body {
+  color: black;
+}
+
+/*Creating the slides*/
+.slider-container {
+  width: 100%;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.teamrow {
+  margin: 0px;
+  width: 4650px;
+  display: flex;
+  height: 400px;
+  position: relative;
+  transition: left 4s;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+}
+.row1 {
+  width: 100%;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.button-container {
+  margin-top: -25px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-bottom: 20px;
+}
+.slider-button {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border: 2px rgb(48, 33, 33) solid;
+  border-radius: 20px;
+  background-color: white;
+  margin-left: 20px;
+}
+.slider-button:hover {
+  border: 2px white solid;
+  background-color: rgb(51, 32, 32);
+}
+
+#slider-image-1:target ~ .teamrow {
+  left: 0px;
+}
+#slider-image-2:target ~ .teamrow {
+  left: -1550px;
+}
+#slider-image-3:target ~ .teamrow {
+  left: -3100px;
+}
+@media (max-width: 1024px) {
+  .team1 {
+    margin-left: 5%;
+  }
+}
+@media (max-width: 800px) {
+  .row2 {
+    visibility: false;
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .team1 {
+    display: block;
+
+    height: fit-content;
+    width: 150px;
+    margin: 5px;
+    margin-left: 2%;
+  }
+  .image {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: black;
+  }
+  .button-container {
+    margin-top: -100px;
+  }
+}
+@media (max-width: 311px) {
+  .image {
+    height: 80px;
+    width: 80px;
+  }
+  .team1 {
+    width: 100px;
+  }
+}
+
+.libraryservice {
+  margin-top: 20px;
+  background: linear-gradient(to right, #ffd700, white, #9f94e0);
+
+  margin-bottom: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+section {
+  margin-top: 2%;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.book1 {
+  width: 200px;
+  height: fit-content;
+
+  justify-content: space-between;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 1px;
+  color: black;
+  transform-style: preserve-3d;
+  transition-delay: 0.5s;
+  margin-bottom: 20px;
+  transition-duration: 0.5s;
+}
+.book1:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 3px grey;
+}
+
+hr {
+  color: red;
+}
+#next,
+#next1,
+#next12,
+#next2,
+#next22,
+#next3,
+#next33 {
+  color: gold;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+#next1,
+#next2,
+#next3 {
+  display: none;
+}
+
+.sublibrary {
+  display: block;
+}
+.row1,
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+hr {
+  color: white;
+  background-color: white;
+}
+
+.libinfo {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 20px;
+}
+.libhead {
+  font-size: 18px;
+}
+
+/* Payments plans */
+.payments {
+  background: linear-gradient(to right, gold, white, #9f94e0);
+}
+#library,
+#library2,
+#library3 {
+  animation: fadeEffect 3s;
+  transition: all ease-out;
+}
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+    transform: translate(90deg);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.payment-box {
+  height: 500px;
+  width: 350px;
+  border: 2px red solid;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(252, 249, 249);
+  color: black;
+}
+.payment-box .pay {
+  background-color: black;
+  color: white;
+}
+.payment-box h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 100px;
+}
+.payment-box:hover {
+  transition: all 2s ease-out;
+  transition-duration: 3s;
+  border: none;
+  border-radius: 8px;
+  transition-delay: 2s;
+}
+.button-plan {
+  width: 70%;
+  height: 50px;
+  background-color: rgb(34, 30, 30);
+  color: white;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.button-plan:hover {
+  background-color: blue;
+  transition: all 2s ease-in-out;
+}
+
+.lawbook-header a {
+  margin-top: 30px;
+  font-size: 35px;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.lawbook-header a:hover {
+  color: yellow;
+  background-color: black;
+  transition: all 1s ease-in;
+  border-radius: 10%;
+}
+.hide {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .book1 {
+    border: none;
+    margin-bottom: 10px;
+  }
+  #next1,
+  #next2,
+  #next3 {
+    display: block;
+  }
+
+  .hide {
+    display: block;
+  }
+  .search-content input {
+    width: 250px;
+  }
+  .search-content button {
+    width: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .row2 {
+    display: none;
+  }
+  .search {
+    margin-left: 5%;
+    display: block;
+    margin-bottom: 50px;
+  }
+  .createdocuments a {
+    display: block;
+  }
+}
+
+.ourteam {
+  margin-top: -5%;
+}

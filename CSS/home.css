@@ -356,3 +356,50 @@ h4 {
     width: 280px;
   }
 }
+.container-info {
+  width: 70%;
+  z-index: 1000;
+  background-color: rgb(255, 255, 255);
+  margin-left: 10%;
+  word-wrap: normal;
+  font-size: 20px;
+  line-height: 30px;
+  box-shadow: grey;
+  transform: scale(1);
+  box-sizing: border-box;
+}
+.main-container {
+  margin-left: 10%;
+  background-color: white;
+  border: 1px 1px grey;
+  margin-right: 10%;
+}
+main {
+  background-color: rgb(240, 238, 238);
+}
+.container-table {
+  overflow: scroll;
+}
+@media (max-width: 768px) {
+  .container-info {
+    width: 98%;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+    margin-left: 2%;
+    word-wrap: normal;
+    font-size: 20px;
+    line-height: 30px;
+    box-shadow: grey;
+    transform: scale(1);
+    box-sizing: border-box;
+  }
+  .main-container {
+    margin-left: 0%;
+    background-color: white;
+    border: 1px 1px grey;
+    margin-right: 00%;
+  }
+}
+h3 {
+  font-weight: lighter;
+}
