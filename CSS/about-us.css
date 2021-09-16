@@ -7,7 +7,7 @@
 .sides {
 }
 .info-side {
-  width: 60%;
+  width: 50%;
 }
 @media (max-width: 500px) {
   .info-side {
@@ -23,16 +23,16 @@
 }
 .missionvission {
   height: 400px;
-  width: 500px;
+  width: 400px;
   text-align: center;
 }
 .missionvission:first-child {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 2%;
+  margin-right: 3%;
 }
 .image-mision {
   width: 100%;
-  height: 80%;
+  height: 70%;
 }
 .mission h3 {
   position: absolute;
@@ -51,23 +51,24 @@
   margin-bottom: 3%;
 }
 .mission-vision p {
-  font-size: 30px;
   color: white;
 }
 .upper-part:first-child {
   background-color: red;
 }
 .upper-part:last-child {
-  background-color: rgb(78, 78, 243);
+  background-color: rgb(68, 125, 248);
 }
 .upper-part {
-  height: 20%;
-  margin-top: -7%;
+  height: 30%;
+  margin-top: 0%;
 }
 .w3-bar .w3-button {
   padding: 16px;
 }
-
+.mission-vision p {
+  font-size: 25px;
+}
 @media (max-width: 500px) {
   .missionvission:first-child {
     margin-left: 0%;
@@ -81,7 +82,6 @@
   }
   .upper-part {
     height: 30%;
-    margin-top: -9%;
   }
   .mission-vision:first-child {
     margin-bottom: 100px;
@@ -93,6 +93,11 @@
     align-items: center;
     justify-content: center;
     align-content: center;
+  }
+  .mission h3 {
+    padding-left: 30%;
+    font-size: 35px;
+    font-weight: lighter;
   }
 }
 
@@ -138,7 +143,7 @@
   font-family: Montserrat;
   font-size: 45px;
 
-  margin: 20px;
+  margin: 10px;
 }
 
 .team1 {

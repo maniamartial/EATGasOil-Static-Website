@@ -66,7 +66,7 @@ footer ul {
   padding: 0px;
 }
 .footer-section {
-  background: #151414;
+  background: #1a4edf;
   position: relative;
 }
 .footer-cta {
@@ -89,7 +89,7 @@ footer ul {
   margin-bottom: 2px;
 }
 .cta-text span {
-  color: #757575;
+  color: black;
   font-size: 15px;
 }
 .footer-content {
@@ -113,7 +113,7 @@ footer ul {
 .footer-text p {
   margin-bottom: 14px;
   font-size: 14px;
-  color: #7e7e7e;
+  color: black;
   line-height: 28px;
 }
 .footer-social-icon span {
@@ -171,7 +171,7 @@ footer ul {
   color: #ff5e14;
 }
 .footer-widget ul li a {
-  color: #878787;
+  color: black;
   text-transform: capitalize;
 }
 .subscribe-form {
@@ -205,10 +205,10 @@ footer ul {
 .copyright-text p {
   margin: 0;
   font-size: 14px;
-  color: #878787;
+  color: black;
 }
 .copyright-text p a {
-  color: #ff5e14;
+  color: black;
 }
 .footer-menu li {
   display: inline-block;
@@ -219,7 +219,7 @@ footer ul {
 }
 .footer-menu li a {
   font-size: 14px;
-  color: #878787;
+  color: black;
 }
 
 .hide-large {
@@ -322,19 +322,49 @@ h4 {
   margin-right: 20%;
   background-color: blue;
 }
+
 .two-sections {
+  margin-top: -3%;
   flex-wrap: wrap;
   display: flex;
 }
 .sections p {
-  margin-top: -10%;
+  margin-top: -7%;
   word-spacing: 1px;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
+@media (max-width: 500px) {
+  .sections {
+    width: 150px;
+  }
+  .sections h4 {
+    font-size: 22px;
+  }
+  .sections p {
+    font-size: 17px;
+  }
+  .section-one {
+    margin-right: 5%;
+    background-color: blue;
+  }
+}
+@media (max-width: 377px) {
+  .sections {
+    width: 140px;
+    padding: 0px;
+    padding-top: 5%;
+  }
+  .section-one {
+    margin-right: 1%;
+  }
+}
 .three-sections {
   display: flex;
   flex-wrap: wrap;
+}
+.three-sections h3 {
+  padding-top: 20%;
 }
 .section-equal {
   width: 300px;
@@ -348,12 +378,19 @@ h4 {
 }
 @media (max-width: 500px) {
   .three-sections {
-    display: block;
+    display: flex;
   }
-  .section-equal,
+  .section-equal {
+    height: 130px;
+    width: 100px;
+  }
   .section-centre {
-    height: 300px;
-    width: 280px;
+    height: 150px;
+    width: 100px;
+  }
+  .productive h3 {
+    font-weight: lighter;
+    font-size: 20px;
   }
 }
 .container-info {
@@ -400,6 +437,14 @@ main {
     margin-right: 00%;
   }
 }
-h3 {
-  font-weight: lighter;
+.chair {
+  color: rgb(68, 125, 248);
+}
+
+.h2 {
+  font-size: 35px;
+  font-family: "Times New Roman", Times, serif;
+  color: red;
+  word-spacing: 5px;
+  font-family: Montserrat;
 }
