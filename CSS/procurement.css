@@ -1,0 +1,16 @@
+p img {
+  padding: 0px;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  background: red;
+  width: 300px;
+  height: 300px;
+}
+
+@media (max-width: 500px) {
+  p img {
+    width: 280px;
+    height: 280px;
+  }
+}
