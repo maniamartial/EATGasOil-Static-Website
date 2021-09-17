@@ -4,6 +4,16 @@
   background-color: white;
   color: black;
 }
+@media (max-width: 500px) {
+  .navbar {
+  }
+  #navbar .navbar-collapse {
+    background-color: red;
+  }
+  .navbar-toggler-right {
+    background-color: rgb(108, 152, 247);
+  }
+}
 .navbar li div {
   color: black;
 }
@@ -234,7 +244,9 @@ footer ul {
 }
 
 .hide-large {
+  margin-top: 20px;
   display: none;
+  background-color: blue;
 }
 li {
   text-decoration: none;
@@ -276,7 +288,6 @@ li {
 }
 .search-location .search-content {
   display: none;
-  background-color: red;
 }
 /*Landing page*/
 .info-landing-page {
@@ -494,6 +505,7 @@ main {
 }
 .list-group-item {
   background-color: red;
+
   color: rgb(108, 152, 247);
 }
 .list-group-item:hover {
@@ -501,4 +513,15 @@ main {
 }
 .col-lg-3 {
   margin-left: 20px;
+}
+@media (max-width: 500px) {
+  .navbar .navbar-collapse {
+    background-color: rgb(108, 152, 247);
+  }
+  .searching-hide {
+    display: none;
+  }
+}
+.navbar-collapse.in {
+  display: block !important;
 }

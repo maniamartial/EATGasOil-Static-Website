@@ -206,9 +206,7 @@ button:focus {
   font-size: 50px;
   color: white;
 }
-.hide-large {
-  display: none;
-}
+
 .procure .btn-toolbar {
   background-color: rgb(108, 152, 247);
   margin-left: -45px;
