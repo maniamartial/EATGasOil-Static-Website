@@ -210,8 +210,8 @@ button:focus {
 .hide-large {
   display: none;
 }
-.btn-toolbar {
-  background-color: green;
+.procure .btn-toolbar {
+  background-color: rgb(108, 152, 247);
   margin-left: -45px;
 }
 

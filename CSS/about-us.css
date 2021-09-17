@@ -57,7 +57,7 @@
   background-color: red;
 }
 .upper-part:last-child {
-  background-color: rgb(68, 125, 248);
+  background-color: rgb(108, 152, 247);
 }
 .upper-part {
   height: 30%;
@@ -400,7 +400,7 @@ hr {
   margin-top: 30px;
 }
 .button-plan:hover {
-  background-color: blue;
+  background-color: rgb(108, 152, 247);
   transition: all 2s ease-in-out;
 }
 
@@ -457,4 +457,10 @@ hr {
 
 .ourteam {
   margin-top: -5%;
+}
+.large-font {
+  font-size: 50px;
+}
+.nextitem {
+  font-size: 20px;
 }
