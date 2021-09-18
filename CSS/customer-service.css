@@ -1,0 +1,32 @@
+.image-text {
+  display: flex;
+  flex-direction: wrap;
+}
+.image-left,
+.text-right {
+  width: 45%;
+  min-height: 400px;
+}
+.image-left {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.text-right {
+  padding-left: 2%;
+}
+.text-right li {
+  text-decoration: dashed;
+  list-style: circle;
+}
+@media (max-width: 500px) {
+  .image-text {
+    display: block;
+  }
+  .image-left,
+  .text-right {
+    width: 100%;
+  }
+  .image-size {
+    width: 300px;
+  }
+}

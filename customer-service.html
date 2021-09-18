@@ -10,6 +10,12 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="CSS/home.css">
+    <link rel="stylesheet" href="CSS/about-us.css">
+    <link rel="stylesheet" href="CSS/procurement.css">
+    <link rel="stylesheet" href="CSS/product-service.css">
+    <link rel="stylesheet" href="CSS/sustainability.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="stylesheet" href="CSS/customer-service.css">
     <link rel="stylesheet"
         href="https://cdn.rawgit.com/JacobLett/bootstrap4-latest/504729ba/bootstrap-4-latest.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -29,8 +35,8 @@
     <!--Double Navbar-->
     <header>
 
-        <div class="d-flex flex-row p-2 justify-content-between kd-on">
-            <div class="p-2 kd-on">
+        <div class="d-flex flex-row p-2 justify-content-between kd-on ">
+            <div class="p-2 kd-on searching-hide">
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="Search this blog">
                     <div class="input-group-append">
@@ -44,41 +50,37 @@
                 <img class="logo" src="Images/logo.jfif">
             </div>
 
-            <div class="p-2 kd-on">
-                <div class="menu" id="navbar">
-                    <i class="ion-drag menu__icon"></i>
-                    <ul class="navbar-nav  w-100 justify-content-center px-3">
-                        <!--Fresh-<li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Product Service
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Automotive gas oil</a>
-                    <a class="dropdown-item" href="#">illuminating Kerosene</a>
-                    <a class="dropdown-item" href="#">Jet Fuel</a>
-                    <a class="dropdown-item" href="#">Oil and Lubricants</a>
-                    <a class="dropdown-item" href="#">Premium Motor Spirit</a>
-                    <a class="dropdown-item" href="#">Service Station</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Sustainability
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Coorporate Social Responsibility</a>
-                    <a class="dropdown-item" href="#">Environment Policy</a>
-                    <a class="dropdown-item" href="#">Guidance Principle</a>
-                    <a class="dropdown-item" href="#">Quality Policy State</a>
-                </div>
-            </li>->
-            
-            </ul>
-            <!---->
+            <div class="p-2 kd-on searching-hide">
+                <div class="btn-toolbar " role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="btn-group mr-2" role="group" aria-label="First group">
+                        <a href="Procure.html" type="button" class="btn ">Procurement</button>
+
+
+                    </div>
+                    <div class="btn-group mr-2" role="group" aria-label="Second group">
+                        <a href="career.html" type="button" class="btn">Career</a>
+
+                    </div>
+
                 </div>
             </div>
+        </div>
+        </div>
+        <style>
+            .btn-toolbar a {
+                background-color: none;
+                color: white;
+            }
+        </style>
+
+        <div class="search-location center">
+
+            <div class="search-content">
+                <input type="text" placeholder="Enter your location" id="search" />
+                <button type="submit" name="Search by location" id="btn-location"><i class="fa fa-search"></i></button>
+                <br>
+            </div>
+
         </div>
 
 
@@ -102,43 +104,46 @@
 
                 <ul class="navbar-nav  w-100 justify-content-center px-3">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#"><i class="fa-size fa fa-home nav-ico fa-3x" aria-hidden="true"></i>
+                        <a class="nav-link" href="home.html"><i class="fa-size fa fa-home nav-ico fa-3x"
+                                aria-hidden="true"></i>
                             <div>Home</div>
                         </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#"><i class="fa fa-picture-o nav-ico fa-3x" aria-hidden="true"></i>
+                        <a class="nav-link" href="media.html"><i class="fa fa-picture-o nav-ico fa-3x"
+                                aria-hidden="true"></i>
                             <div>Media</div><span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#"><i class="fa-size fa fa-info-circle nav-ico fa-3x"
+                        <a class="nav-link" href="about_us.html"><i class="fa-size fa fa-info-circle nav-ico fa-3x"
                                 aria-hidden="true"></i>
                             <div>About Us</div> <span class="sr-only">(current)</span>
                         </a>
                     </li>
 
                     <li class="nav-item active">
-                        <a class="nav-link" href="#"><i class="fa fa-support fa-pin nav-ico fa-3x"></i>
+                        <a class="nav-link" href="customer-service/customer-service.html"><i
+                                class="fa fa-support fa-pin nav-ico fa-3x"></i>
                             <div>Customer Service</div><span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#"><i class="fas fa-address-book nav-ico fa-3x"></i>
+                        <a class="nav-link" href="contact_us.html"><i class="fas fa-address-book nav-ico fa-3x"></i>
                             <div>Contact Us</div><span class="sr-only">(current)</span>
                         </a>
                     </li>
                 </ul>
-
-
-
-
             </div>
 
         </nav>
     </header>
     <main class="main-body">
-    <div class="container center">
+        <div class="image-text container">
+            <div class="image-left">
+                <img class="image-size" src="Images/12.jfif"/>
+            </div>
+    <div class="text-right">
         <p>At East African Gasoil Limited , customer satisfaction is key. We strive to understand the needs and concerns of our
         customers by effectively responding to them.</p>
 
@@ -155,48 +160,51 @@
             </ul>
         </p>
     </div>
+        </div>
     </main>
-
+    <!--============================Mobile bottom navbar==================-->
     <div class="hide-large">
         <nav class="mobile-bottom-nav hide-large">
             <div class="mobile-bottom-nav__item mobile-bottom-nav__item--active">
                 <div class="mobile-bottom-nav__item-content">
-                    <a class="nav-link" href="#"><i class="fa-size fa fa-home nav-ico fa-2x" aria-hidden="true"></i>
+                    <a class="nav-link" href="home.html"><i class="fa-size fa fa-home nav-ico fa-2x" aria-hidden="true"></i>
                         <div>Home</div>
                     </a>
                 </div>
             </div>
             <div class="mobile-bottom-nav__item">
                 <div class="mobile-bottom-nav__item-content">
-                    <a class="nav-link" href="#"><i class="fa fa-picture-o nav-ico fa-2x" aria-hidden="true"></i>
+                    <a class="nav-link" href="media.html"><i class="fa fa-picture-o nav-ico fa-2x" aria-hidden="true"></i>
                         <div>Media</div><span class="sr-only">(current)</span>
                     </a>
                 </div>
             </div>
             <div class="mobile-bottom-nav__item">
                 <div class="mobile-bottom-nav__item-content">
-                    <a class="nav-link" href="#"><i class="fa-size fa fa-info-circle nav-ico fa-2x"
+                    <a class="nav-link" href="about_us.html"><i class="fa-size fa fa-info-circle nav-ico fa-2x"
                             aria-hidden="true"></i>
                         <div>About_Us</div> <span class="sr-only">(current)</span>
                     </a>
                 </div>
             </div>
-
+    
             <div class="mobile-bottom-nav__item">
                 <div class="mobile-bottom-nav__item-content">
-                    <a class="nav-link" href="#"><i class="fa fa-support fa-pin nav-ico fa-2x"></i>
+                    <a class="nav-link" href="contact_us.html"><i class="fa fa-support fa-pin nav-ico fa-2x"></i>
                         <div>Customer Service</div><span class="sr-only">(current)</span>
                     </a>
                 </div>
             </div>
         </nav>
     </div>
-
+    <!----------->
+    
     <!--Footer-->
     <footer class="footer-section">
         <div class="container">
             <div class="footer-cta pt-5 pb-5">
                 <div class="row">
+                    <!--================Location-->
                     <div class="col-xl-4 col-md-4 mb-30">
                         <div class="single-cta">
                             <i class="fas fa-map-marker-alt"></i>
@@ -208,6 +216,7 @@
                             </div>
                         </div>
                     </div>
+                    <!--========Contact-->
                     <div class="col-xl-4 col-md-4 mb-30">
                         <div class="single-cta">
                             <i class="fas fa-phone"></i>
@@ -217,6 +226,8 @@
                             </div>
                         </div>
                     </div>
+                    <!------>
+                    <!--===========Email-->
                     <div class="col-xl-4 col-md-4 mb-30">
                         <div class="single-cta">
                             <i class="far fa-envelope-open"></i>
@@ -226,49 +237,63 @@
                             </div>
                         </div>
                     </div>
+                    <!-------->
                 </div>
             </div>
             <div class="footer-content pt-5 pb-5">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 mb-50">
                         <div class="footer-widget">
+                            <!--=====Logo footer-->
                             <div class="footer-logo">
                                 <a href="index.html"><img src="Images/logo.jfif" class="img-fluid" alt="logo"></a>
                             </div>
+                            <!--================================----------->
                             <div class="footer-text">
-                                <p>With operations across the Region, East African Gasoil Ltd (EAGOL) is a privately
-                                    owned Oil Marketing Company that was
-                                    established in 2009 to Energize East Africa and Beyond! Our 10 years of operations
-                                    have seen us continually meet and
+                                <p>With operations across the Region, East African Gasoil Ltd (EAGOL) is a privately owned
+                                    Oil Marketing Company that was
+                                    established in 2009 to Energize East Africa and Beyond! Our 10 years of operations have
+                                    seen us continually meet and
                                     exceed our customer’s needs by providing quality petroleum products .</p>
                             </div>
+                            <!---===============Social media icons-->
                             <div class="footer-social-icon">
                                 <span>Follow us</span>
-                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
-                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                                <a href="https://www.facebook.com/EAGASOIL/?ref=page_internal"><i
+                                        class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="https://twitter.com/EAGOL_?s=20"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="https://www.instagram.com/eagol_/"><i
+                                        class="fab fa-instagram instagram-bg"></i></a>
+    
+                                <a href="https://www.linkedin.com/company/75033862/admin/"><i
+                                        class="fab fa-linkedin"></i></a>
                             </div>
+                            <!----->
                         </div>
                     </div>
+                    <!--================Useful links-->
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
                                 <h3>Useful Links</h3>
                             </div>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">about</a></li>
-                                <li><a href="#">services</a></li>
-
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Our Services</a></li>
-                                <li><a href="#">Expert Team</a></li>
-
-
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="about_us.html">about</a></li>
+    
+    
+                                <li><a href="contact_us.html">Contact</a></li>
+    
+                                <li><a href="https://www.linkedin.com/company/75033862/admin/">Media</a></li>
+                                <li><a href="about_us.html">Expert Team</a></li>
+    
+    
                             </ul>
                         </div>
                     </div>
+                    <!----------------------->
+    
+                    <!--===========Subscribe region-->
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
@@ -285,6 +310,7 @@
                             </div>
                         </div>
                     </div>
+                    <!------------>
                 </div>
             </div>
         </div>
@@ -293,53 +319,29 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                         <div class="copyright-text">
-                            <p>Copyright &copy; 2018, All Right Reserved <a
-                                    href="https://codepen.io/anupkumar92/">Anup</a>
+                            <p>Copyright &copy; 2021, All Right Reserved <a href="home.html">EAGASOIL</a>
                             </p>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                        <div class="footer-menu">
-                            <h3>Our Products</h3>
-                            <ul>
-                                <li><a href="#">Jet Fuel(JET A1)</a></li>
-                                <li><a href="#">Oils & Lubricants</a></li>
-                                <li><a href="#">Premium Motor Spirit</a></li>
-                                <li><a href="#">Service Stations</a></li>
-                                <li><a href="#">Automotive Gas Oil(AGO)</a></li>
-                            </ul>
-                        </div>
-                    </div>
+    
                 </div>
             </div>
         </div>
     </footer>
-
+    
     <!--JAVASCRIPT-->
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    
+    
     <script src="https://cdn.rawgit.com/JacobLett/bootstrap4-latest/504729ba/bootstrap-4-latest.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+    <script src="JS/procurement.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
-
-<!--
-     <ul class="navbar-nav justify-content-center w-100 bg-secondary px-3">
-    
-                <li class="social">
-                    <a href="http://twitter.com"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="social">
-                    <a href="http://facebook.com"><i class="fab fa-facebook-square"></i></a>
-                </li>
-                <li class="social">
-                    <a href="http://youtube.com"><i class="fab fa-youtube-square"></i></a>
-                </li>
-                <li class="social">
-                    <a href="http://instagram.com"><i class="fab fa-instagram"></i></a>
-                </li>
-            </ul>
--->
