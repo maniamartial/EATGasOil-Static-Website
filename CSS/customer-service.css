@@ -3,7 +3,7 @@
   flex-direction: wrap;
 }
 .image-left,
-.text-right {
+.text-righ {
   width: 45%;
   min-height: 400px;
 }
@@ -11,10 +11,10 @@
   margin-left: 2%;
   margin-right: 2%;
 }
-.text-right {
+.text-righ {
   padding-left: 2%;
 }
-.text-right li {
+.text-righ li {
   text-decoration: dashed;
   list-style: circle;
 }
